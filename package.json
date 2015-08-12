@@ -1,0 +1,17 @@
+{
+  "name": "texas_holdem",
+  "version": "1.0.0",
+  "description": "Web based multiplayer and multi-room Texas Hold'em using express, socket.io and ReactJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "Jonathan Lau <j.nh.lau@gmail.com> (http://jonathanlau.me)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.3.6"
+  }
+}
